@@ -1,3 +1,18 @@
+/**
+ * jquery waterfall
+ * @author richard chen
+ * @update 2014-10-07
+ * @version 1.0
+ * @parameters
+ *     itemClass: the brick element class
+ *     spacingWidth: the brick element horizontal spacing
+ *     spacingHeight: the brick element vertical spacing
+ *     minColCount: min columns
+ *     resizeable: trigger positionAll() when browser window is resized
+ *     itemAlign: the alignment of the brick element ( e.q. [center|left] )
+ *     isFadeIn: fadeIn effect on loading
+ *     ajaxCallback: callback when ajax loaded, two parameters ( success, end )
+ */
 (function($) {
     var $window = $(window),
         pluginName = 'waterfall',
